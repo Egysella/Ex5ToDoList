@@ -1,0 +1,31 @@
+.wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    border: 1px solid red;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(168, 104, 104);
+}   
+.fill{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+h1{ 
+    color: rgb(197, 93, 111);
+    font-style:italic;
+}
+mat-form-field{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li{ 
+    display: flex;
+    justify-content: column;
+    margin: 10px;
+    font-size: 20px;
+}
